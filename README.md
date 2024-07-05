@@ -2,7 +2,13 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 
 ## Getting Started
 
-First, run the development server:
+First, let's install the dependencies running the next command in a comman line or VSCode Terminal:
+
+```bash
+npm install 
+```
+
+and then, we're ready to run the project with
 
 ```bash
 npm run dev
@@ -26,7 +32,9 @@ This is a challenge project made for Driscolls.
 I'm writing some comments below about what I did in the project:  
 
 Challenge asks for a News section, but decided to consume a public API that needs no suscription or token and still showing the functionality and HTTP Requests.
-I explicitly removed the .env files from .gitignore since here the API url is public and no token is needed, but still wanted to show this practice.
+
+I explicitly removed the .env files from .gitignore since here the API url is public and no token is needed, but still wanted to show this practice.  
+Next.js allows you to use .env by itself but to extract the values directly form a component (Next.js also provides an API routing service that I did not used), so I needed to use .dotenv library to retrieve the environment variables.  
   
 REDUX  
 Instead of consuming a Database with needs of deploying an API and database, I decided to use Redux as database. The Redux store is persisted with client localStorage.
