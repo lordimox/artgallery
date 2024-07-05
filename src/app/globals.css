@@ -1,0 +1,274 @@
+:root {
+  --primary: #4A773C;
+  --on-primary: #fff;
+  --strawberry: #da291c;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+.challenge-header {
+  width: 100%;
+  height: 60px;
+  background-color: var(--primary);
+  color: var(--on-primary);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.container {
+  position: relative;
+  max-width: 1120px;
+  margin: 0 auto;
+}
+
+.centered-text {
+  text-align: center;
+  margin: 24px;
+}
+
+.nav-bar {
+  position: relative;
+  width: 100%;
+  height: 60px;
+}
+
+.nav-bar .container {
+  gap: 32px
+}
+
+.nav-bar .nav-bar_link {
+  margin: 8px;
+  padding: 8px 24px;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 1.5rem;
+  color: var(--primary);
+}
+
+.width-100p {
+  width: 100%;
+}
+
+.table-wrapper {
+  padding: 12px;
+  border: 1px solid var(--primary);
+  border-radius: 8px;
+}
+
+.empty-section {
+  width: 100%;
+  height: 30vh;
+}
+
+.empty-section img {
+  width: 48px;
+  height: 48px;
+}
+
+.empty-section h2 {
+  color: #c3c3c3;
+}
+
+.btn {
+  margin: 12px;
+  padding: 8px 16px;
+  background-color: var(--primary);
+  color: var(--on-primary);
+  text-decoration: none;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+}
+
+.btn:hover {
+  opacity: 0.8;
+}
+
+.btn-danger {
+  background-color: var(--strawberry);
+}
+
+.m2 {
+  margin: 2rem;
+}
+
+.table-redirect {
+  font-weight: 600;
+  color: var(--primary);
+  text-decoration: none;
+}
+
+.form-control {
+  padding: 8px;
+  border-radius: 8px;
+  border: 1px solid var(--primary);
+  margin-bottom: 16px;
+}
+
+.form-control:disabled {
+  border: 1px solid #c3c3c3;
+}
+
+.error-text {
+  font-size: 12px;
+  color: var(--strawberry);
+}
+
+.navigation-btn {
+  font-size: 14px;
+  border: none;
+  background-color: transparent;
+  color: var(--primary);
+  cursor: pointer;
+}
+
+.card {
+  border-radius: 16px;
+  box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.4);
+  padding: 18px;
+  cursor: pointer;
+}
+
+.card .card-image {
+  width: 160px;
+  height: 160px;
+  object-fit: contain;
+}
+
+.card .card-image img {
+  margin: auto;
+}
+
+.pagination {
+  margin-top: 24px;
+  margin-bottom: 64px;
+}
+
+.artwork-title {
+  text-align: center;
+  margin: 8px;
+}
+
+.card .artist-name {
+  font-size: 14px;
+}
+
+.artwork-view .title {
+  font-size: 24px;
+  text-align: center;
+}
+
+.artwork-view .artist-name {
+  font-size: 16px;
+  font-weight: 600;
+  margin-top: 8px;
+  margin-bottom: 24px;
+  text-align: center;
+}
+
+.artwork-view .description {
+  font-size: 16px;
+  text-align: justify;
+}
+
+.artwork-view img {
+  max-width: 720px;
+}
+
+.loading-text {
+  width: 100%;
+  text-align: center;
+  color: #c3c3c3;
+}
+
+.lang-chooser {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+}
+
+.select-control {
+  padding: 8px 16px;
+  border: 1px solid var(--primary);
+  border-radius: 8px;
+  font-size: 14px;
+  margin-left: 8px;
+}
+
+/*  LAYOUT  */
+
+.flex-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.flex-space-even {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.flex-column {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.flex-column-center {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.flex-column-space-btwn {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.flex-gap {
+  gap: 16px;
+}
+
+.flex-end {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.grid-4c {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.grid-3c {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 24px;
+}
+
+.flex-space-btwn {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.grid-1to3 {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  gap: 24px;
+}

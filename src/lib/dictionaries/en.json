@@ -1,0 +1,22 @@
+{
+    "users": {
+        "link": "Users",
+        "new": "New user",
+        "firstname": "First name",
+        "lastname": "Last name",
+        "username": "Username"
+    },
+    "artworks": {
+        "link": "Artworks"
+    },
+    "buttons": {
+        "save": "Save",
+        "delete": "Delete",
+        "back": "Back"
+    },
+    "pagination": {
+        "next": "Next page",
+        "prev": "Previous page"
+    },
+    "loading": "Loading..."
+}

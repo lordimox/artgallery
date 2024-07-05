@@ -1,0 +1,22 @@
+{
+    "users": {
+        "link": "Usuarios",
+        "new": "Nuevo usuario",
+        "firstname": "Nombre",
+        "lastname": "Apellido",
+        "username": "Nombre de usuario"
+    },
+    "artworks": {
+        "link": "Obras de arte"
+    },
+    "buttons": {
+        "save": "Guardar",
+        "delete": "Eliminar",
+        "back": "Volver"
+    },
+    "pagination": {
+        "next": "Página siguiente",
+        "prev": "Página previa"
+    },
+    "loading": "Cargando..."
+}
