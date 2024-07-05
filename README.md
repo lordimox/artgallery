@@ -16,9 +16,9 @@ bun dev
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-IMAGES AND DATA USED IN THIS PROJECT ARE NOT OF MY PROPERTY.
-We're using the Art Institute of Chicago public API to develop this project.
-Images used follows the Art Institute of Chicago API documentation to retrieve the urls.
+IMAGES AND DATA USED IN THIS PROJECT ARE NOT OF MY PROPERTY.  
+I'm using the Art Institute of Chicago public API to develop this project.  
+Images used follows the Art Institute of Chicago API documentation to retrieve the urls.  
 
 
 ## Information about the project
