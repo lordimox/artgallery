@@ -32,7 +32,7 @@ REDUX
 Instead of consuming a Database with needs of deploying an API and database, I decided to use Redux as database. The Redux store is persisted with client localStorage.
 I decided to use Redux Slices to be able to use mutating states, since it uses Immer and allows this thing to happen.  
 Also, declaring functions without checking action.type reduces changes of making mistakes as typo errors, and we can export those functions as slice.actions to access them outside the code and directly calling sending the payload without having to specify the event type in dispatch.  
-
+  
 ROUTING  
 Next.js provides routing in the project through AppRouter and PageRouter.  
 I used AppRouter, that consists in creating new folders inside app and every folder with a page.tsx file inside is a new route.  
@@ -52,3 +52,7 @@ Since useSelector react-redux hook makes a suscription to Redux Store, the value
 CASING  
 I used kebab-case for class names, so every style made is in this casing.  
 As a common good practice in React, I used camelCase for variables and functions, and PascalCase for React Components.  
+  
+INTERNATIONALIZATION  
+Next.js allows a middleware to be declared to catch any change, so here is declared part of the internationalization.  
+Languages allowed are spanish and english. You'll find that the path is using the language that is needed. This is part of the documentation on how Next recommend to approach internationalization.  
