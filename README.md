@@ -41,7 +41,7 @@ I like this architecture since Next.js also allows you to declare some special c
     - Declaring a loading.tsx file inside the folder, allows you to set a loading screen for the content.  
     - You may declare a not-found.tsx file in every folder too, but I did not creat any new since Next.js has one as default.  
     - Declaring a folder with brackets [] gets a dynamic route, so the name you set inside the brackets for the folder will be the key for the params to get the value.  
-    - Declaring a folder with double brackets and spread operator [[...key]] set a dynamic route with optional parameters, I used this to have just one component doing the view, edition and creation of users.
+    - Declaring a folder with double brackets and spread operator [[...key]] set a dynamic route with optional parameters, I used this to have just one component doing the view, edition and creation of users.  
 Landing is a Welcome Page with a link, this is to better understand the logic that Next App Router follows in case reviewer is not familiarized with it.  
   
 HOOKS  
